@@ -1,0 +1,45 @@
+button{
+    float: right;
+    width: 150px;
+    height: 50px;
+    font-size: 100%;
+    font-weight: bold;
+}
+
+.removeButton{
+    width: 150px;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td{
+    width: 100px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+tr:nth-child(even){
+    background-color: #dfdddd;
+}
+
+th{
+    background-color: #c7bfbf;
+}
+
+h1{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+    background-color: grey;
+}
+
+#removeByID{
+    float: none;
+}

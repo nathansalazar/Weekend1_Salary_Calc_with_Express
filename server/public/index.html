@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="jquery-3.3.1.js"></script>
+    <script src="client.js"></script>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Weekend Project 1</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1> <br> Salary Calculator <br> <br></h1>
+
+        <h2>Add Employee</h2>
+
+        <input type="text" placeholder="First Name" id="firstName">
+        <input type="text" placeholder="Last Name" id="lastName">
+        <input type="text" placeholder="ID" id="inputID">
+        <input type="text" placeholder="Title" id="inputTitle">
+        <input type="text" placeholder="Annual Salary" id="inputSalary">
+        <button id="submitButton">Submit</button>
+
+        <br />
+        <br />
+        <br />
+        <h2>Employees</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>
+                        First Name
+                    </th>
+                    <th>
+                        Last Name
+                    </th>
+                    <th>
+                        ID
+                    </th>
+                    <th>
+                        Title
+                    </th>
+                    <th>
+                        Annual Salary
+                    </th>
+                </tr>
+            </thead>
+
+            <tbody>
+
+            </tbody>
+        </table>
+
+        <h3 id="totalMonthly"></h3>
+
+        <br />
+        <br />
+        <br />
+
+        <h3 class="remove">Remove Employee by ID</h3>
+
+        <input type="text" class="remove" placeholder="ID" id="inputIDRemove">
+        <button class="remove" id="removeByID">Remove Employee</button>
+
+
+    </div>
+</body>
+
+</html>
